@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian:wheezy
+FROM resin/rpi-raspbian:jessie
 MAINTAINER Markus Fischbacher <fischbacher.markus@gmail.com>
 
 RUN apt-get update && \
