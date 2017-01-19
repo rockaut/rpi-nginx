@@ -1,0 +1,6 @@
+version: '2'
+services:
+  nginx:
+    image: rockaut/rpi-nginx:develop
+    ports:
+      - "80:80"
